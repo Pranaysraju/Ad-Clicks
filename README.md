@@ -1,7 +1,7 @@
 # Ad-Clicks
 
 ### **Project Definition**  
-To predict who is more likely to click on the ad.  
+Predict who is more likely to click on the ad.  
 
 ### **Features in the Dataset**  
 
@@ -65,6 +65,10 @@ The models selected to predict if a person would click on the ad or not was:
 |---------------------------|:-----------:|
 |Logistic Regression 	        | 94%	  |
 |Random Forest Classifier 	  | 98% 	  |
+
+
+The plot below shows the features that where important in predicting who is mostl likely to click on the ad.
+
 
 ![variance](images/impfeatures.png)
 
