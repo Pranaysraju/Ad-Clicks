@@ -28,7 +28,7 @@ Predict who is more likely to click on the ad.
 ## **EDA**
 ![variance](images/distage.png)
 
-From the above distribution plot we see that there people among the age range of 35 to 40
+From the above distribution plot we see that majority of people are in the range of 35 to 40
 
 
 ![variance](images/distdailyint.png)
@@ -58,8 +58,8 @@ The above two scatter plot show that people in the age range of 30 to 40 spend t
 - Created dummy variables for all the categorical variables
 - Labels was created for different Hour bins
 The models selected to predict if a person would click on the ad or not was:
-- Logistic Regression
-- Random Forest Classifier
+1. Logistic Regression
+2. Random Forest Classifier
 
 | Model	                    |Accuracy Score|
 |---------------------------|:-----------:|
@@ -67,7 +67,7 @@ The models selected to predict if a person would click on the ad or not was:
 |Random Forest Classifier 	  | 98% 	  |
 
 
-The plot below shows the features that where important in predicting who is mostl likely to click on the ad.
+The plot below shows the features that where important in predicting who is most likely to click on the ad.
 
 
 ![variance](images/impfeatures.png)
